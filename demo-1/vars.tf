@@ -17,3 +17,4 @@ variable "AMIS" {
   }
 }
 
+#  terraform tfvars stores AWS_ACCESS_KEY, AWS_SECRET_KEY privately

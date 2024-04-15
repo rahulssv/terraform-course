@@ -1,0 +1,17 @@
+#!bin/bash
+terraform --version
+
+terraform init
+
+terraform apply -yes
+
+terraform destroy
+
+terraform plan
+
+terraform plan -out out.terraform
+
+terraform apply out.terraform
+
+
+ls ~/aws/credentials
