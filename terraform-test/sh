@@ -6,3 +6,7 @@ vim main.tf
 vim resource.tf
 vim terraform.tfvars
 terraform init
+
+
+# built-in-functions
+terraform console
