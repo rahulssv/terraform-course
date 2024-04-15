@@ -1,0 +1,21 @@
+#!bin/bash
+vim terraform.tf
+terraform show | grep public_ip
+cat output.tf
+terraform plan
+terraform taint aws_instance.example
+terraform untaint aws_instance.example
+terraform graph -help
+terraform graph
+terraform refresh
+vim vpc.tf
+vim terraform.tfstate
+terraform fmt vpc.tf
+vim vpc.tf
+vim terraform.tfstate
+terraform plan
+terraform import aws_instance.example i-0bbda46c8e5c461e6a
+vim instance.tf
+
+
+

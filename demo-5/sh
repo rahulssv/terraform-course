@@ -1,0 +1,6 @@
+#!bin/bash
+ls
+cat provider.tf vars.tf
+ls ~/.aws/credentials
+cat securitygroup.tf
+terraform apply

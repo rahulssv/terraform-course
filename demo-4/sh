@@ -1,0 +1,8 @@
+#!bin/bash
+aws configure
+cat ~/.aws/credentials
+ls
+vim backend.tf
+terraform init
+terraform plan
+terraform apply

@@ -1,0 +1,8 @@
+#!bin/bash
+ls
+cat instance.tf
+cat ~/terraform.tfvars
+cat provider.tf
+cat vars.tf
+cat private_ips.txt
+

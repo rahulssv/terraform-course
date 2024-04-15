@@ -1,0 +1,8 @@
+#!bin/bash
+ls -ahl
+terraform version
+terraform console
+vim main.tf
+vim resource.tf
+vim terraform.tfvars
+terraform init

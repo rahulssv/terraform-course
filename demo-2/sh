@@ -1,0 +1,6 @@
+#!bin/bash
+ssh-keygen -f mykey
+ls
+terraform apply
+cat script.sh
+terraform destroy

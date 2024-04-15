@@ -1,17 +1,25 @@
 #!bin/bash
-terraform --version
-
-terraform init
-
-terraform apply -yes
-
-terraform destroy
-
-terraform plan
-
-terraform plan -out out.terraform
-
-terraform apply out.terraform
+cat vars.tf
+cat  provider.tf
+vim terraform.tfvars
+cat instance.tf
 
 
-ls ~/aws/credentials
+
+
+# terraform --version
+
+# terraform init
+
+# terraform apply -yes
+
+# terraform destroy
+
+# terraform plan
+
+# terraform plan -out out.terraform
+
+# terraform apply out.terraform
+
+
+# ls ~/aws/credentials

@@ -1,0 +1,5 @@
+#!bin/bash
+ls
+vim vpc.tf
+vim nat.tf
+terraform apply

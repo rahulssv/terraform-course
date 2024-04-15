@@ -1,0 +1,7 @@
+#!bin/bash
+ls
+cat windows-instance.tf
+cat vars.tf
+terraform apply
+
+aws ec2 get-password-data --instance-id i-0d2b432d89df2bce3 --priv-launch-key mykey

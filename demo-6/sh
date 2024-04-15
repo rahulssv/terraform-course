@@ -1,0 +1,12 @@
+#!bin/bash
+ls
+cat key.tf
+cat vars.tf
+ssh-keygen -f mykey
+cat provider.tf
+cat modules.tf
+terraform get
+ls -ahl .terraform/
+ls -ahl .terraform/modules/
+terraform apply
+terraform destroy

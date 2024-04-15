@@ -1,0 +1,14 @@
+#!bin/bash
+ls
+vim instance.tf
+vim vpc.tf
+terraform plan
+terraform apply
+
+vim terraform.tfstate
+ssh 52.51.4.31 -l ubuntu -i mykey
+
+
+sudo -s
+ifconfig
+route -n
