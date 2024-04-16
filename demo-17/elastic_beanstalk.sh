@@ -1,8 +1,8 @@
 #!bin/bash
 ls 
 cat rds.tf
-vim elasticbeanstalk.tf
-vim iam.tf
+cat elasticbeanstalk.tf
+cat iam.tf
 terraform output
 cat output.tf
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 ls
 cat provider.tf
-vim parameters.tf
-vim ssm-parameter/variables.tf
-vim ssm-parameter/ssm-parameter.tf
-vim ssm-parameter/output.tf
+cat parameters.tf
+cat ssm-parameter/variables.tf
+cat ssm-parameter/ssm-parameter.tf
+cat ssm-parameter/output.tf
 terraform init
 terraform apply
 

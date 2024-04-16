@@ -10,7 +10,7 @@ terraform state pull
 terraform state list
 terraform state show aws_ssm_parameter.myparameter 
 
-vim ssm.tf
+cat ssm.tf
 terraform apply
 
 terraform state mv aws_ssm_parameter.myparameter aws_ssm_parameter.myparameter2

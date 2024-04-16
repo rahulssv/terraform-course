@@ -8,7 +8,7 @@ cat  scripts/volumes.sh
 ssh-keygen -f mykey
 terraform apply
 
-vim terraform.tfstate
+cat terraform.tfstate
 ssh -i mykey ubuntu@52.210.97.92
 
 ls /dev/data/volume1

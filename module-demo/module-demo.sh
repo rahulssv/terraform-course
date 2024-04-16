@@ -1,6 +1,6 @@
 #!/bin/bash
 ls
-vim ecs.tf
+cat ecs.tf
 cat vars.tf
 ssh-keygen -f mykey
 terraform init

@@ -1,5 +1,5 @@
 #!bin/bash
 ls
-vim vpc.tf
-vim nat.tf
+cat vpc.tf
+cat nat.tf
 terraform apply

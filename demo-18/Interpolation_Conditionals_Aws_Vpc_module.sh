@@ -1,7 +1,7 @@
 #!bin/bash
 ls
-vm vpc.tf
-vim securitygroup.tf
+cat vpc.tf
+cat securitygroup.tf
 
 terraform init
 ssh-keygen -f mykey

@@ -5,7 +5,7 @@ terraform apply
 ssh-keygen -f mykey
 terraform apply
 
-vim terraform.tfstate
+cat terraform.tfstate
 ssh -i mykey -l ubuntu 52.18.152.235
 
 sudo -s
@@ -15,7 +15,7 @@ mkdir /data
 mount /dev/xvdh /data
 df -h
 
-vim /etc/fstab
+cat /etc/fstab
 man fstab
 unmount /data
 mount /data

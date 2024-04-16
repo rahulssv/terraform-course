@@ -8,14 +8,14 @@ terraform untaint aws_instance.example
 terraform graph -help
 terraform graph
 terraform refresh
-vim vpc.tf
-vim terraform.tfstate
+cat vpc.tf
+cat terraform.tfstate
 terraform fmt vpc.tf
-vim vpc.tf
-vim terraform.tfstate
+cat vpc.tf
+cat terraform.tfstate
 terraform plan
 terraform import aws_instance.example i-0bbda46c8e5c461e6a
-vim instance.tf
+cat instance.tf
 
 
 

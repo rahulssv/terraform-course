@@ -2,9 +2,9 @@
 ls -ahl
 terraform version
 terraform console
-vim main.tf
-vim resource.tf
-vim terraform.tfvars
+cat main.tf
+cat resource.tf
+cat terraform.tfvars
 terraform init
 
 
